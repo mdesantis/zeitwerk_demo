@@ -16,4 +16,6 @@ Gem::Specification.new do |s|
   s.files         = Dir.glob('{bin/*,lib/**/*,[A-Z]*}')
   s.platform      = Gem::Platform::RUBY
   s.require_paths = ['lib']
+
+  s.add_dependency 'zeitwerk', '~> 1.4', '>= 1.4.3'
 end
